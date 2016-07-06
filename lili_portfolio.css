@@ -1,0 +1,35 @@
+/* font, type, color for header */
+.header {
+	background-color: red;
+}
+
+/*#title {
+	font-size: 38px;
+	color: black; 
+}
+
+#title2 {
+	font-size: 20px;
+	color: black;
+}
+
+*/
+
+/* font, type, color in "about me" */
+#aboutMe {
+	font-size: 20px;
+	font-family: "Verdana", "Times", "Serif";
+	color: black;
+}
+
+#meDesc {
+	font-size: 20px;
+	font-family: "Verdana";
+	color: #6600ff;
+}
+
+/*background color */
+body {
+	background-color: #ffcccc;
+	text-align: center;
+}

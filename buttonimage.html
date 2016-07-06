@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS Example</title>
+    </head>
+  <body>
+    <img id ="currentpic" src = "beach.jpg" alt = "Beach Image" style = "width:500px;height:300px">
+    <button onclick="changePic()">Click me to change the photo!</button>
+  </body>
+  <script>
+      function changePic() {
+        var img = document.getElementById("currentpic");
+        if (img.src.match ("beach.jpg")) {
+          img.src = "forest.jpg";
+        }
+        else {
+          img.src = "beach.jpg";
+        }
+      }
+  </script>
+</html>
+
